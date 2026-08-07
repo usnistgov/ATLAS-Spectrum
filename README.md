@@ -142,17 +142,20 @@ Parts of this project were built with the help of generative AI tools. All
 AI-generated outputs were reviewed and tested by the human project maintainer.
 
 # Contact
-
+## Primary Developer
 Jimmy Lu
 GitHub: [@jimmylu7](https://github.com/jimmylu7)
 Email: [jflu@unc.edu](mailto:jflu@unc.edu) or [jimmy.lu@nist.gov](mailto:jimmy.lu@nist.gov)
+
+## NIST Advisor
+Aric Sanders
+Email:[aric.sanders@nist.gov](mailto:aric.sanders@nist.gov)
 
 # NIST data acknowledgment & disclaimer
 
 This project visualizes public datasets from the National Institute of Standards
 and Technology (NIST): the NASCTN CBRS SEA monitoring data and the Applied Systems
-Metrology Group I/Q data sets. It is an independent visualization tool and is not
-endorsed by NIST.
+Metrology Group I/Q data sets. 
 
 Certain commercial equipment, instruments, software, or materials may be
 identified in this repository to foster understanding. Such identification does
