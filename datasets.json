@@ -1,0 +1,38 @@
+{
+  "_comment": [
+    "Friendly names for `python atlas.py get <name>`. Each entry names a NIST",
+    "Public Data Repository record and, optionally, a default --filter so a",
+    "first run pulls a small slice rather than the whole record.",
+    "Add your own: any record id, ark, DOI or landing URL works here, and",
+    "atlas.py works without this file at all if you pass the id directly.",
+    "sample: how many of the smallest files 'a sample' means in the menu.",
+    "reads: which reader handles the record's files.",
+    "Only records ATLAS can actually ingest are listed. Other public NIST I/Q",
+    "records exist but ship formats nothing here reads yet (HDF5, zipped CSV,",
+    "MATLAB); they are catalogued in docs/README_MANUAL.md instead of here, so",
+    "nothing in this menu downloads gigabytes it cannot then draw."
+  ],
+  "lte-uplink": {
+    "record": "mds2-3177",
+    "title": "High-SNR I/Q Recordings of FDD LTE User Equipment Emissions",
+    "filter": "1.4MHz",
+    "reads": "tdms",
+    "note": "902 files / 188 GB. The default filter takes the 1.4MHz set, whose captures are ~37 MB each. Pass --filter '' for the whole record.",
+    "sample": 3
+  },
+  "tig-welding": {
+    "record": "mds2-3684",
+    "title": "Electromagnetic Interference Measurements from Tungsten Inert Gas (TIG) Arc Welding",
+    "filter": "1_TIG_ACnopulse_900_IQ_time.iq",
+    "reads": "iq-tar float32",
+    "note": "Same iq-tar layout as microwave-oven. Arc-welding emissions at 900 MHz, 2.4 GHz and 5.3 GHz; 625 MS/s, 160 MHz span, ~400 MB per capture. 352 files / 16 GB in total.",
+    "sample": 1
+  },
+  "cbrs-sea": {
+    "record": "mds2-4219",
+    "title": "SEA-DATA Web Portal (NASCTN CBRS SEA monitoring)",
+    "reads": "cbrs csv exports",
+    "note": "The record is access instructions rather than the data: it points at github.com/usnistgov/SEA-DATA and a NIST Box share you request from nasctn@nist.gov. Once the CSV exports are on disk, `atlas.py get <folder>` ingests them. Documented in NIST TN 2359. Supersedes mds2-4214, which was never published and returns HTTP 404.",
+    "sample": 3
+  }
+}

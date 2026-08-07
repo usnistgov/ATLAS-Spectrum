@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Use of this software is required to use the citation below."
+authors:
+- family-names: "Lu"
+  given-names: "Jimmy Fanshi"
+title: "ATLAS - Automatic Tiled Layering for Analyzing Spectra"
+version: 1.1.0
+date-released: 2026-08-05
+url: "https://github.com/jimmylu7/ATLAS"
