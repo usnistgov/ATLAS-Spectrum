@@ -139,7 +139,7 @@ test suites, and architecture.
 # AI Assistance
 
 Parts of this project were built with the help of generative AI tools. All
-AI-generated outputs were reviewed and tested by the human project maintainer.
+AI-generated outputs were reviewed and tested by the human project maintainer. Claude Code and Claude Cowork were used to create code, compress data from the NIST PDR repositories and test the code once written. Behavior and fidelity of color mapping was checked by Jimmy Lu [jflu@unc.edu](mailto:jflu@unc.edu) and Aric Sanders [aric.sanders@nist.gov](mailto:aric.sanders@nist.gov). 
 
 # Contact
 ## Primary Developer
