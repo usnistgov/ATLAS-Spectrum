@@ -1,6 +1,6 @@
 # ATLAS - Automatic Tiled Layering for Analyzing Spectra
 
-"Google Maps for RF spectrum": one interface where **X is always time** and
+"Geo Mapping for RF spectrum": one interface where **X is always time** and
 colour is power. Zoom continuously from a two-year overview down to microsecond
 structure — the viewer swaps resolution layers as you go.
 
