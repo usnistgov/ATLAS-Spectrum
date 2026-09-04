@@ -52,6 +52,9 @@ With nothing built yet it offers to build a small synthetic capture
 (`iq.duckdb`, ~2 MB) and start the viewer. Pick that; the check must end with
 `RESULT: PASS`. If it says `FAIL`, the line above it names the problem.
 
+### NEW! Data for the NASCTN CBRS SEA Program is availble in Compressed Format
+The compressed data set is at [https://data.nist.gov/od/id/mds2-4289](https://data.nist.gov/od/id/mds2-4289) and can be copied into the ATLAS directory. This links the user to multiyear sensor data, see [https://pages.nist.gov/SEA-DATA/](https://pages.nist.gov/SEA-DATA/) for more information. 
+
 **4. Start the viewer**
 
 ```bash
